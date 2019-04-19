@@ -8,74 +8,52 @@
 </head>
 <body>
     
+    <h3>Sign in</h3>
+
+    <hr>
 
 <form action="/">
 
 
-<p> 
+<p>  
 <label>
-Name
-<input type="text" name="name"  required> 
+Full Name:
+<p><input type="text" name="fullname" placeholder="Enter full name" required> </p>
 </label> </p>
 
 <p>
     <label>
-        Email
-<input type="email" name="e-mail" required>
-</label> </p>
-
-<p>
-    <label>
-        Password
-<input type="password" name="password"  required>
+        Email address:
+        <p><input type="email" name="e-mail" placeholder="Enter email" required></p>
 </label> </p>
 
 <p>
         <label>
-            Number
-    <input type="number" name="number"  required>
+        Communication:
+         <p>   <input type="checkbox" name="Email"> Email</p>
+         <p>   <input type="checkbox" name="SMS"> SMS</p>
+         <p>  <input type="checkbox" name="Phone"> Phone</p>
+
     </label> </p>
 
 
-<p>
- <label>
-Date
-<input type="date" name="date" required>
-</label>   
+    <p>
+            <label>
+            User Group:
+            <p>
+<input type="radio" name="salesperson"> Sales Person
+<input type="radio" name="customer"> Customer
 </p>
 
-<p>
-        <label>
-       Time
-       <input type="time" name="time" required>
-       </label>   
-       </p>
+<p>Please select user group</p>
 
-
-       <p>
-            <label>
-           Color
-           <input type="color" name="color" required>
-           </label>   
-           </p>
-
-           <p>
-                <label>
-               Range
-               <input type="range" name="range" required>
-               </label>   
-               </p>
-
-               <p>
-                    <label>
-                   Description
-                   <textarea name="Description" cols="30" rows="10" required></textarea>
-                </label>   
-                   </p>
+<hr>
+            
+    </label> </p>
 
                    <p>
  <input type="submit" value="Submit">
-<input type="reset" value="Clear">
+<input type="reset" value="Cancel">
 </p>
 
 </form>
