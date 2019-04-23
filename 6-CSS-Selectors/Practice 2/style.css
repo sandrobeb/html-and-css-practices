@@ -1,0 +1,28 @@
+body {
+    background-color: navy;
+}
+
+header h1 {
+    color:white;
+}
+
+.football {
+    color: white;
+}
+
+.football h1 {
+    color: red;
+}
+
+.basketball h1{
+    color:white;
+}
+
+.basketball h1:hover {
+    color: red;
+}
+
+#art1 {
+    color: white;
+    font-size: 18px;
+}
