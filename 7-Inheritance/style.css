@@ -1,0 +1,28 @@
+.btn {
+font-size:18px;
+padding: 10px;
+border-radius: 5px;
+width: 100px;
+}
+
+.btn.primary {
+background-color: cornflowerblue;
+border: 1px solid cornflowerblue;
+color:white;
+}
+
+.btn.default {
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.btn.dashed {
+    background-color: white;
+    border: 1px dashed gray;
+}
+
+.btn.danger {
+    background-color: silver;
+    border: 1px solid gray;
+    color: red;
+}
