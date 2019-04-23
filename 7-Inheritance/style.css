@@ -37,3 +37,7 @@
     height: 60px;
     width: 150px;
 }
+
+.btn.ghost {
+    background-color:transparent;
+}
