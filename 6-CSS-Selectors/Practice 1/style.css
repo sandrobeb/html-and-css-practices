@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+header {
+    text-align: center
+}
+
+header h1:hover {
+    color: red;
+}
+
+section {
+    text-align: center;
+}
+
+#cars {
+    border: 1px solid white;
+}
+
+main > section {
+    background-color:white;
+}
