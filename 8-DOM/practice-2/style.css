@@ -35,6 +35,7 @@ a {
     height: 300px;
     border: 1px solid gray;
     display: inline-block;
+    margin-right: 20px;
 }
 
 .info {
@@ -76,10 +77,19 @@ a {
     top: -25px;
 }
 
+.left img {
+margin-right: 15px;
+}
+
 .right {
     float: right;
     position: relative;
     top: -25px;
+}
+
+.right span {
+    position:relative;
+    top: -5px;
 }
 
 .buttons.left img {
