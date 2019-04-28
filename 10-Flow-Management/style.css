@@ -1,9 +1,14 @@
+body {
+    background-color: black;
+}
+
 main {
     width: 700px;
+    margin: auto;
 }
 
 .col1-1 {
-    background-color: lightblue;
+    background-color: white;
     border-right: 5px solid black;
     height: 200px;
     width: 40px;
@@ -11,7 +16,7 @@ main {
 }
 
 .col1-2 {
-    background-color: beige;
+    background-color: khaki;
     height: 50px;
     width: 80px;
     float: left;
@@ -21,7 +26,7 @@ main {
 }
 
 .col1-3 {
-    background-color: beige;
+    background-color: khaki;
     width: 70px;
     height: 50px;
     float: left;
@@ -31,7 +36,7 @@ main {
 }
 
 .col1-4 {
-    background-color: lightblue;
+    background-color: white;
     width: 200px;
     height: 50px;
     float: left;
@@ -40,7 +45,7 @@ main {
 }
 
 .col1-5 {
-    background-color: beige;
+    background-color: khaki;
     width: 90px;
     height: 120px;
     float: left;
@@ -48,7 +53,7 @@ main {
 }
 
 .col1-6 {
-    background-color: lightblue;
+    background-color: white;
     width: 40px;
     height: 175px;
     float: left;
@@ -65,7 +70,7 @@ main {
 }
 
 .col1-8 {
-    background-color: beige;
+    background-color: khaki;
     border-left: 5px solid black;
     border-bottom: 5px solid black;
     height: 300px;
@@ -80,7 +85,7 @@ main {
 }
 
 .col2-1 {
-    background-color: beige;
+    background-color: khaki;
     width: 80px;
     height: 145px;
     border: 5px solid black;
@@ -98,7 +103,7 @@ main {
 }
 
 .col2-3 {
-    background-color: blue;
+    background-color: cornflowerblue;
     border: 5px solid black;
     border-top-width: 0;
     border-left-width: 0;
@@ -126,24 +131,25 @@ main {
 
 .col4-1 {
     width: 40px;
-    height: 100px;
-    background-color: beige;
+    height: 95px;
+    background-color: khaki;
     float: left;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
+    border: 5px solid black;
+    border-left-width: 0;
 }
 
 .col4-2 {
-    background-color: lightblue;
+    background-color: white;
     width: 80px;
-    height: 100px;
+    height: 95px;
     float: left;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    border: 5px solid black;
+    border-left-width: 0;
+    ;
 }
 
 .col4-3 {
-    background-color: beige;
+    background-color: khaki;
     width: 135px;
     height: 120px;
     border: 5px solid black;
@@ -157,4 +163,224 @@ main {
     position: relative;
     left: 225px;
     top: -270px;
+}
+
+.rw1 {
+    width: 205px;
+}
+
+.block2 {
+    position: absolute;
+    top: 313px;
+}
+
+.cl1-1 {
+    width: 205px;
+    background-color: white;
+    height: 60px;
+    float: left;
+    border: 5px solid black;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.cl1-2 {
+    width: 205px;
+    background-color: cornflowerblue;
+    height: 60px;
+    clear: left;
+    border: 5px solid black;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.cl1-3 {
+    width: 205px;
+    background-color: black;
+    height: 70px;
+    clear: left;
+    border: 5px solid black;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.rw2 {
+    width: 205px;
+    position: relative;
+    top: -205px;
+    left: 210px;
+}
+
+.cl2-1 {
+    width: 95px;
+    background-color: white;
+    height: 200px;
+    float: left;
+    border: 5px solid black;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.cl2-2 {
+    width: 100px;
+    background-color: white;
+    height: 30px;
+    float: left;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.cl2-3 {
+    width: 100px;
+    height: 165px;
+    background-color: yellow;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    float: left;
+}
+
+.rw3 {
+    width: 260px;
+    position: relative;
+    top: -410px;
+    left: 415px;
+}
+
+.cl3-1 {
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    float: left;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.cl3-2 {
+    background-color: white;
+    width: 50px;
+    height: 60px;
+    float: left;
+    border-bottom: 5px solid black;
+}
+
+.cl3-3 {
+    background-color: khaki;
+    width: 135px;
+    height: 60px;
+    clear: left;
+    float: left;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.cl3-4 {
+    background-color: khaki;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.cl3-5 {
+    background-color: khaki;
+    width: 50px;
+    height: 60px;
+    float: left;
+    border-bottom: 5px solid black;
+}
+
+.rw4 {
+    width: 260px;
+    position: relative;
+    top: -410px;
+    left: 415px;
+}
+
+.cl4-1 {
+    height: 130px;
+    width: 90px;
+    background-color: red;
+    float: left;
+    border-right: 5px solid black;
+}
+
+.cl4-2 {
+    width: 160px;
+    height: 75px;
+    background-color: yellow;
+    float: left;
+    border-bottom: 5px solid black;
+}
+
+.cl4-3 {
+    width: 160px;
+    height: 50px;
+    background-color: cornflowerblue;
+    float: right;
+    position: relative;
+    right: 5px;
+}
+
+.cl4-4 {
+    background-color: khaki;
+    width: 255px;
+    height: 80px;
+    clear: left;
+    border-top: 5px solid black;
+}
+
+.rw5 {
+    width: 410px;
+    position: relative;
+    top: -550px;
+}
+
+.cl5-1 {
+    background-color: white;
+    width: 40px;
+    height: 140px;
+    float: left;
+    border-right: 5px solid black;
+}
+
+.cl5-2 {
+    background-color: red;
+    border-bottom: 5px solid black;
+    width: 100px;
+    height: 35px;
+    float: left;
+}
+
+.cl5-3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    clear: left;
+    position: relative;
+    top: -100px;
+    left: 45px;
+}
+
+.last {
+    position: relative;
+    top: -240px;
+    left: 145px;
+}
+
+.cl5-4 {
+    background-color: khaki;
+    border-left: 5px solid black;
+    width: 55px;
+    height: 140px;
+    float: left;
+}
+
+.cl5-5 {
+    background-color: white;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    width: 200px;
+    height: 140px;
+    float: left;
 }
