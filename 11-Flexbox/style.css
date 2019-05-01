@@ -1,100 +1,38 @@
-body {}
-
 .wrapper {
-    width: 400px;
+    width: 1000px;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 
 .row {
     display: flex;
 }
 
-.bl-1 {
-    background-color: red;
-    height: 150px;
-    width: 140px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
+.col220 {
+    width: 220px;
+    height: 220px;
+    background-color: gray;
+    margin: 10px;
 }
 
-.bl-2 {
-    background-color: lightblue;
-    height: 150px;
-    width: 150px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-    border-right-width: 0 !important;
-}
-
-.bl-1,
-.bl-2,
-.bl2-1,
-.bl2-2,
-.bl3-1,
-.bl3-2,
-.bl3-3,
-.bl3-4,
-.bl3-5 {
-    border: 5px solid black;
-}
-
-.bl2-1 {
-    background-color: lightblue;
-    height: 70px;
-    width: 140px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-}
-
-.bl2-2 {
-    background-color: lightblue;
-    height: 70px;
-    width: 150px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-    border-right-width: 0 !important;
-}
-
-.bl3-1 {
-    background-color: yellow;
-    height: 100px;
-    width: 35px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-    border-bottom-width: 0 !important;
-}
-
-.bl3-2 {
-    background-color: lightblue;
-    height: 100px;
+.col100 {
     width: 100px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-    border-bottom-width: 0 !important;
-}
-
-.bl3-3 {
-    background-color: purple;
-    height: 80px;
-    width: 70px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-}
-
-.bl3-4 {
-    background-color: lightblue;
-    height: 15px;
-    width: 70px;
-    border-top-width: 0 !important;
-    border-left-width: 0 !important;
-    border-bottom-width: 0 !important;
-}
-
-.bl3-5 {
-    background-color: lightblue;
-    width: 75px;
     height: 100px;
-    border-width: 0 !important;
+    background-color: gray;
+    margin: 10px;
+}
+
+.col700 {
+    height: 220px;
+    width: 700px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.col460 {
+    width: 460px;
+    height: 220px;
+    background-color: gray;
+    margin: 10px;
 }
