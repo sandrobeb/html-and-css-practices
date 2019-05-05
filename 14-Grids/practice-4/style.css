@@ -1,0 +1,154 @@
+ .container {
+    width: 630px;
+    margin: auto;
+    border:3px solid black;
+    display: grid;
+    grid-template-columns: 50px 120px 60px repeat(3,90px) 40px 50px 40px;
+    grid-template-rows: 40px 60px 20px 120px 20px 30px 50px 100px 20px 20px 70px;
+ }
+ 
+ .container div {
+    border: 3px solid black;
+ }
+
+ .container .col1 {
+    grid-row: 1/4;
+ }
+
+ 
+ .container .col4 {
+    grid-column: span 2;
+}
+
+
+.container .col5 {
+   grid-row: span 2;
+}
+
+
+.container .col6 {
+   grid-row: span 3;
+}
+
+
+.container .col7 {
+   grid-row: span 4;
+}
+
+.container .col8 {
+   grid-row: span 4;
+}
+
+.container .col9 {
+grid-row: span 2;
+}
+
+.container .col10 {
+   grid-row: span 3;
+}
+
+.container .col11 {
+   grid-row: span 3;
+   grid-column: span 2;
+}
+
+.container .col15 {
+   grid-column: span 2;
+}
+
+.col2, .col3, .col5, .col8, .col9, .col13, .col15, .col16, .col17,.col18,.col23,.col24,.col25,.col31,.col35 {
+   background-color: #feeda8;
+}
+
+.col1, .col4, .col6, .col14, .col20,.col29,.col32 {
+   background-color: white;
+}
+
+.col12, .col28,.col21,.col34 {
+   background-color: #fdcc05;
+}
+
+.col10, .col19, .col26 {
+   background-color: black;
+}
+
+.col7, .col27, .col30 {
+   background-color: #c73737;
+}
+
+.col11,.col22,.col33 {
+   background-color: #85a9dd;
+}
+
+.container .col16 {
+   grid-row: span 2;
+grid-column: span 3;
+}
+
+.container .col17 {
+   grid-row: span 4;
+}
+
+.container .col19 {
+   grid-row: span 2;
+   grid-column: span 3;
+
+}
+
+.container .col20 {
+   grid-row: span 2;
+}
+.container .col21 {
+   grid-row: span 3;
+}
+.container .col22 {
+   grid-column: span 3;
+}
+.container .col23 {
+   grid-column: span 2;
+}
+
+.container .col26 {
+   grid-column: span 3;
+}
+
+.container .col27 {
+   grid-row: span 3;
+}
+
+.container .col28 {
+   grid-column: span 3;
+}
+
+.container .col29 {
+   grid-row: span 3;
+}
+
+.container .col31 {
+   grid-row: span 3;
+}
+
+
+.container .col32 {
+   grid-row: span 3;
+   grid-column: span 2;
+}
+
+.container .col33 {
+   grid-row: span 2;
+   grid-column: span 3;
+}
+
+.container .col34 {
+   grid-row: span 2;
+}
+
+.container .col35 {
+   grid-column: span 4;
+}
+
+
+
+
+
+
