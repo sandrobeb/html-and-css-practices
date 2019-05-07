@@ -22,6 +22,7 @@
                 font-weight: 100;
                 line-height: 36px;
                 margin-top: 39px;
+                margin-bottom: 10px;
             }
 
             .header p span {
@@ -32,7 +33,7 @@
 
             .header {
                 border-bottom: 1px solid #ECF0F1;
-                padding-bottom: 23px;
+                padding-bottom: 20px;
             }
 
             .header p span::after {
@@ -42,8 +43,8 @@
                 background-color: #A1B1BC;
                 display: inline-block;
                 vertical-align: middle;
-                margin-left: 13px;
-                margin-right: 13px;
+                margin-left: 9px;
+                margin-right: 8px;
             }
 
             .header p span:last-child::after {
@@ -65,6 +66,7 @@
                 border: 1px solid #ECF0F1;
                 position: relative;
                 left: 30px;
+                top: -2px;
             }
 
             .bar .left {
@@ -77,7 +79,12 @@
 
             .con {
                 position: relative;
-                top: 44px;
+                top: 39px;
+            }
+
+            .con p {
+                position: relative;
+                left: 2px;
             }
 
             .bar span {
@@ -88,17 +95,23 @@
             }
 
             .bar p {
-                font-size: 14px;
+                font-size: 16px;
                 line-height: 26px;
                 color: #A1B1BC;
                 opacity: 0.6;
+                position: relative;
+                top: 11px;
             }
 
             .row1 p {
                 font-size: 14px;
                 line-height: 23px;
                 color: #A1B1BC;
-                margin-bottom: 43px;
+                margin-bottom: 37px;
+                width: 1145px;
+                position: relative;
+                top: -3px;
+                left: 2px;
             }
 
             .row1 p::first-letter {
@@ -109,7 +122,7 @@
                 line-height: 15.18px;
                 font-size: 30px;
                 text-align: center;
-                padding: 10px;
+                padding: 12.5px 12px;
                 float: left;
                 margin-right: 5px;
             }
@@ -119,6 +132,9 @@
                 line-height: 30px;
                 margin-bottom: 13px;
                 color: #34495E;
+                position: relative;
+                left: 1px;
+                font-weight: 100;
             }
 
             .row2 p {
