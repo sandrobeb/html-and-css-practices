@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto";
+}
+
+.container {
+    padding-top: 152px;
+    width: 1158px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 285px 965px 50px 160px;
+    grid-area: "styles1" "styles2" "tags" "user";
+    grid-gap: 37px;
+}
+
+.container .styles1 h3 {
+    margin-bottom: 15px;
+}
+
+.container .styles1 h3, .container .styles2 h3 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #34495E;
+    font-weight: 500;
+}
+
+.container .styles1 h3 span, .container .styles2 h3 span {
+    color: #1ABC9C;
+}
+
+.container .styles1 p {
+    margin-bottom: 20px;
+}
+
+.container .styles1 p, .container .styles2>p, .container .styles2 .less-width .text p {
+    font-size: 14px;
+    line-height: 23px;
+    color: #A1B1BC;
+}
+
+.container .styles1 div {
+    font-size: 14px;
+    line-height: 30px;
+    color: #A1B1BC;
+}
+
+.container .styles1 .li-items {
+    display: flex;
+    justify-content: space-between;
+    width: 1138px;
+}
+
+.container .styles1 .li-items .blue li::before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    background-color: #34495E;
+    margin-bottom: -5px;
+    margin-left: 1px;
+    margin-right: 19px;
+}
+
+.container .styles1 .li-items .white li::before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border-radius: 3px;
+    border: 1px solid #A1B1BC;
+    margin-bottom: -5px;
+    margin-right: 18px;
+    margin-left: 2px;
+}
+
+.container .styles2 {
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.container .styles2 h3 {
+    margin-bottom: 16px;
+}
+
+.container .styles2 p:first-of-type {
+    margin-bottom: 6px;
+}
+
+.container .styles2 .code {
+    width: 1170px;
+    height: 190px;
+    margin: auto;
+    background-color: #F5F7F8;
+    margin-bottom: 22px;
+}
+
+.container .styles2 .code p {
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    padding: 25px 0 26px 31px;
+}
+
+.container .styles2 .code p span {
+    margin-left: 15px;
+}
+
+.container .styles2 .less-width {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 26px;
+    left: 2px;
+}
+
+.container .styles2 .less-width img {
+    width: 370px;
+    height: 400px;
+    background-color: #ECF0F1;
+    margin-left: 1px;
+}
+
+.container .styles2 .less-width .text {
+    width: 772px;
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -3.4px;
+}
+
+.container .tags {
+    width: 1170px;
+    height: 50px;
+    border: 1px solid #ECF0F1;
+    position: relative;
+    top: -45px;
+}
+
+.container .tags span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #A1B1BC;
+    word-spacing: 3px;
+}
+
+.container .tags span a {
+    color: #1ABC9C;
+}
+
+.container .tags span::before {
+    content: "⊕";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    color: #ECF0F1;
+    background-color: #34495E;
+    display: inline-block;
+}
+
+.user {
+    width: 1170px;
+    height: 160px;
+    margin: auto;
+    border: 1px solid #ECF0F1;
+    background-color: #F9FBFB;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14px;
+    padding-left: 4px;
+    position: relative;
+    top: -30px;
+    left: 2px;
+}
+
+.user avatar img {
+    height: 105px;
+    width: 105px;
+    border: 3px solid #FFFFFF;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(133, 133, 133, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(133, 133, 133, 1);
+    box-shadow: 0px 0px 10px 0px rgba(133, 133, 133, 1);
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+.user .title {
+    width: 994px;
+    position: relative;
+    top: 11px;
+    left: -4px;
+}
+
+.user .title h3 {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+}
+
+.user .title p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+    font-style: italic;
+}
+
+.user .title .subtitle {
+    font-weight: 100;
+    margin-bottom: 8px;
+    font-style: unset;
+}
